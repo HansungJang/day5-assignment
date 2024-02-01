@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+
+body {
+  padding-top: 50px;
+}
+
+.header a {
+  text-decoration: none;
+  /* color: #8d9fee; */
+  font-family: "Gowun Dodum", sans-serif;
+}
+
+.header {
+  background-color: rgb(150, 150, 150);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  color: white;
+  font-size: 55px;
+  text-align: center;
+}
+
+.header__menu {
+  display: flex;
+  font-size: 20px;
+  list-style: none;
+  padding: 90px;
+}
+
+.header__menu li {
+  padding: 8px 25px;
+}
+
+.header__menu li:hover {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.header__menu li:hover a {
+  color: black;
+}
+
+.header__toogleBtn {
+  display: none;
+  position: absolute;
+  right: 32px;
+  font-size: 24px;
+  color: #fff53d;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 24px;
+  }
+  .header__menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header__menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header__toogleBtn {
+    display: block;
+  }
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}

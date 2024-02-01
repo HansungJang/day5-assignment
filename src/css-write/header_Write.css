@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+.header_Write {
+  background-color: #8d9fee;
+}
+
+.title-header {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 3.5rem;
+}
+
+.header_Write #homebtn,
+#listbtn {
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.8rem;
+
+  text-align: center;
+  width: 5rem;
+  margin: 5px;
+  border: 3px solid white;
+  border-radius: 5px;
+  box-shadow: 1px 1px;
+}
+
+#homebtn {
+  display: inline-block;
+}
+
+#listbtn {
+  float: right; /*같은줄 오른쪽 정렬*/
+}
